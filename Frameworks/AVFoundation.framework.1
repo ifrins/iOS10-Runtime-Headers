@@ -1,0 +1,448 @@
+<HTML>
+<HEAD>
+<TITLE>AVFoundation.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/Frameworks/AVFoundation.framework
+390 classes
+
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAIFCOutputSettingsValidator.h">AVAIFCOutputSettingsValidator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAIFFOutputSettingsValidator.h">AVAIFFOutputSettingsValidator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAVAudioSettingsAudioOutputSettings.h">AVAVAudioSettingsAudioOutputSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAVVideoSettingsVideoOutputSettings.h">AVAVVideoSettingsVideoOutputSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAsset.h">AVAsset.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetCache.h">AVAssetCache.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetClientURLRequestHelper.h">AVAssetClientURLRequestHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetDownloadCache.h">AVAssetDownloadCache.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetDownloadCacheInternal.h">AVAssetDownloadCacheInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetDownloadSession.h">AVAssetDownloadSession.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetDownloadSessionInternal.h">AVAssetDownloadSessionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetExportSession.h">AVAssetExportSession.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetExportSessionInternal.h">AVAssetExportSessionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetImageGenerator.h">AVAssetImageGenerator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetImageGeneratorInternal.h">AVAssetImageGeneratorInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetInspector.h">AVAssetInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetInspectorLoader.h">AVAssetInspectorLoader.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetInternal.h">AVAssetInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetMakeReadyForInspectionLoader.h">AVAssetMakeReadyForInspectionLoader.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetMediaSelectionGroup.h">AVAssetMediaSelectionGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetProxy.h">AVAssetProxy.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetProxyInternal.h">AVAssetProxyInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReader.h">AVAssetReader.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderAudioMixOutput.h">AVAssetReaderAudioMixOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderAudioMixOutputInternal.h">AVAssetReaderAudioMixOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderInternal.h">AVAssetReaderInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderOutput.h">AVAssetReaderOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderOutputInternal.h">AVAssetReaderOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderOutputMetadataAdaptor.h">AVAssetReaderOutputMetadataAdaptor.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderOutputMetadataAdaptorInternal.h">AVAssetReaderOutputMetadataAdaptorInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderSampleReferenceOutput.h">AVAssetReaderSampleReferenceOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderSampleReferenceOutputInternal.h">AVAssetReaderSampleReferenceOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderTrackOutput.h">AVAssetReaderTrackOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderTrackOutputInternal.h">AVAssetReaderTrackOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderVideoCompositionOutput.h">AVAssetReaderVideoCompositionOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetReaderVideoCompositionOutputInternal.h">AVAssetReaderVideoCompositionOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetResourceLoader.h">AVAssetResourceLoader.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetResourceLoaderInternal.h">AVAssetResourceLoaderInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetResourceLoadingContentInformationRequest.h">AVAssetResourceLoadingContentInformationRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetResourceLoadingContentInformationRequestInternal.h">AVAssetResourceLoadingContentInformationRequestInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetResourceLoadingDataRequest.h">AVAssetResourceLoadingDataRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetResourceLoadingDataRequestInternal.h">AVAssetResourceLoadingDataRequestInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetResourceLoadingRequest.h">AVAssetResourceLoadingRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetResourceLoadingRequestInternal.h">AVAssetResourceLoadingRequestInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetResourceRenewalRequest.h">AVAssetResourceRenewalRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetSynchronousInspectorLoader.h">AVAssetSynchronousInspectorLoader.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetTrack.h">AVAssetTrack.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetTrackEnumerator.h">AVAssetTrackEnumerator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetTrackGroup.h">AVAssetTrackGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetTrackGroupInternal.h">AVAssetTrackGroupInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetTrackInspector.h">AVAssetTrackInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetTrackInternal.h">AVAssetTrackInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetTrackSegment.h">AVAssetTrackSegment.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriter.h">AVAssetWriter.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterClientInitiatedTerminalHelper.h">AVAssetWriterClientInitiatedTerminalHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterConfigurationState.h">AVAssetWriterConfigurationState.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterFailedTerminalHelper.h">AVAssetWriterFailedTerminalHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterFigAssetWriterNotificationHandler.h">AVAssetWriterFigAssetWriterNotificationHandler.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterFinishWritingHelper.h">AVAssetWriterFinishWritingHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterHelper.h">AVAssetWriterHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInput.h">AVAssetWriterInput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputConfigurationState.h">AVAssetWriterInputConfigurationState.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputFigAssetWriterEndPassOperation.h">AVAssetWriterInputFigAssetWriterEndPassOperation.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputGroup.h">AVAssetWriterInputGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputGroupInternal.h">AVAssetWriterInputGroupInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputHelper.h">AVAssetWriterInputHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputInterPassAnalysisHelper.h">AVAssetWriterInputInterPassAnalysisHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputInternal.h">AVAssetWriterInputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputMediaDataRequester.h">AVAssetWriterInputMediaDataRequester.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputMetadataAdaptor.h">AVAssetWriterInputMetadataAdaptor.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputMetadataAdaptorInternal.h">AVAssetWriterInputMetadataAdaptorInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputNoMorePassesHelper.h">AVAssetWriterInputNoMorePassesHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputPassDescription.h">AVAssetWriterInputPassDescription.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputPassDescriptionInternal.h">AVAssetWriterInputPassDescriptionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputPassDescriptionResponder.h">AVAssetWriterInputPassDescriptionResponder.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputPixelBufferAdaptor.h">AVAssetWriterInputPixelBufferAdaptor.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputPixelBufferAdaptorInternal.h">AVAssetWriterInputPixelBufferAdaptorInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputSelectionOption.h">AVAssetWriterInputSelectionOption.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputTerminalHelper.h">AVAssetWriterInputTerminalHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputUnknownHelper.h">AVAssetWriterInputUnknownHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInputWritingHelper.h">AVAssetWriterInputWritingHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterInternal.h">AVAssetWriterInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterTerminalHelper.h">AVAssetWriterTerminalHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterUnknownHelper.h">AVAssetWriterUnknownHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAssetWriterWritingHelper.h">AVAssetWriterWritingHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAsynchronousCIImageFilteringRequest.h">AVAsynchronousCIImageFilteringRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAsynchronousCIImageFilteringRequestInternal.h">AVAsynchronousCIImageFilteringRequestInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAsynchronousVideoCompositionRequest.h">AVAsynchronousVideoCompositionRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAsynchronousVideoCompositionRequestInternal.h">AVAsynchronousVideoCompositionRequestInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioMix.h">AVAudioMix.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioMixEffectParameters.h">AVAudioMixEffectParameters.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioMixInputParameters.h">AVAudioMixInputParameters.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioMixInputParametersInternal.h">AVAudioMixInputParametersInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioMixInternal.h">AVAudioMixInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioMixSweepFilterEffectParameters.h">AVAudioMixSweepFilterEffectParameters.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioMixSweepFilterEffectParametersInternal.h">AVAudioMixSweepFilterEffectParametersInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioOutputSettings.h">AVAudioOutputSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioSessionMediaPlayerOnly.h">AVAudioSessionMediaPlayerOnly.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioSessionMediaPlayerOnlyInternal.h">AVAudioSessionMediaPlayerOnlyInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVAudioSettingsValueConstrainer.h">AVAudioSettingsValueConstrainer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVBlockOperation.h">AVBlockOperation.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCMNotificationDispatcher.h">AVCMNotificationDispatcher.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCMNotificationDispatcherListenerAndCallback.h">AVCMNotificationDispatcherListenerAndCallback.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCMNotificationDispatcherListenerKey.h">AVCMNotificationDispatcherListenerKey.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCallbackContextRegistry.h">AVCallbackContextRegistry.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureAudioChannel.h">AVCaptureAudioChannel.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureAudioChannelInternal.h">AVCaptureAudioChannelInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureAudioDataOutput.h">AVCaptureAudioDataOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureAudioDataOutputInternal.h">AVCaptureAudioDataOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureAutoExposureBracketedStillImageSettings.h">AVCaptureAutoExposureBracketedStillImageSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureBracketedStillImageSettings.h">AVCaptureBracketedStillImageSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureConnection.h">AVCaptureConnection.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureConnectionInternal.h">AVCaptureConnectionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureCoreMotionMetadataInput.h">AVCaptureCoreMotionMetadataInput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureCoreMotionMetadataInputInternal.h">AVCaptureCoreMotionMetadataInputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureDevice.h">AVCaptureDevice.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureDeviceControlRequest.h">AVCaptureDeviceControlRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureDeviceControlRequestQueue.h">AVCaptureDeviceControlRequestQueue.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureDeviceFakeBiasControlRequest.h">AVCaptureDeviceFakeBiasControlRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureDeviceFormat.h">AVCaptureDeviceFormat.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureDeviceFormatInternal.h">AVCaptureDeviceFormatInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureDeviceInput.h">AVCaptureDeviceInput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureDeviceInputInternal.h">AVCaptureDeviceInputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureDeviceInternal.h">AVCaptureDeviceInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureFigAudioDevice.h">AVCaptureFigAudioDevice.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureFigVideoDevice.h">AVCaptureFigVideoDevice.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureFileOutput.h">AVCaptureFileOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureFileOutputDelegateWrapper.h">AVCaptureFileOutputDelegateWrapper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureFileOutputInternal.h">AVCaptureFileOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureInput.h">AVCaptureInput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureInputInternal.h">AVCaptureInputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureInputPort.h">AVCaptureInputPort.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureInputPortInternal.h">AVCaptureInputPortInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureManualExposureBracketedStillImageSettings.h">AVCaptureManualExposureBracketedStillImageSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureMetadataInput.h">AVCaptureMetadataInput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureMetadataInputInternal.h">AVCaptureMetadataInputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureMetadataOutput.h">AVCaptureMetadataOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureMetadataOutputInternal.h">AVCaptureMetadataOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureMovieFileOutput.h">AVCaptureMovieFileOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureMovieFileOutputInternal.h">AVCaptureMovieFileOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureOutput.h">AVCaptureOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureOutputInternal.h">AVCaptureOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCapturePhotoBracketSettings.h">AVCapturePhotoBracketSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCapturePhotoBracketSettingsInternal.h">AVCapturePhotoBracketSettingsInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCapturePhotoOutput.h">AVCapturePhotoOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCapturePhotoOutputInternal.h">AVCapturePhotoOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCapturePhotoRequest.h">AVCapturePhotoRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCapturePhotoSettings.h">AVCapturePhotoSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCapturePhotoSettingsInternal.h">AVCapturePhotoSettingsInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCapturePrepareBracketRequest.h">AVCapturePrepareBracketRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCapturePreparePhotoRequest.h">AVCapturePreparePhotoRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureResolvedPhotoSettings.h">AVCaptureResolvedPhotoSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureResolvedPhotoSettingsInternal.h">AVCaptureResolvedPhotoSettingsInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureSession.h">AVCaptureSession.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureSessionConfiguration.h">AVCaptureSessionConfiguration.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureSessionInternal.h">AVCaptureSessionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureStillImageOutput.h">AVCaptureStillImageOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureStillImageOutputInternal.h">AVCaptureStillImageOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureStillImageRequest.h">AVCaptureStillImageRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureVideoDataOutput.h">AVCaptureVideoDataOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureVideoDataOutputInternal.h">AVCaptureVideoDataOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureVideoPreviewLayer.h">AVCaptureVideoPreviewLayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureVideoPreviewLayerInternal.h">AVCaptureVideoPreviewLayerInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCaptureVideoSettingsValidator.h">AVCaptureVideoSettingsValidator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVChapterMetadataItem.h">AVChapterMetadataItem.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVChapterMetadataItemInternal.h">AVChapterMetadataItemInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVClientBlockKVONotifier.h">AVClientBlockKVONotifier.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVComposition.h">AVComposition.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCompositionFormatReaderInspector.h">AVCompositionFormatReaderInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCompositionInternal.h">AVCompositionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCompositionTrack.h">AVCompositionTrack.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCompositionTrackInternal.h">AVCompositionTrackInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCompositionTrackReaderInspector.h">AVCompositionTrackReaderInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCompositionTrackSegment.h">AVCompositionTrackSegment.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCompositionTrackSegmentInternal.h">AVCompositionTrackSegmentInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCoreImageFilterCustomVideoCompositor.h">AVCoreImageFilterCustomVideoCompositor.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCoreImageFilterVideoCompositionInstruction.h">AVCoreImageFilterVideoCompositionInstruction.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVCustomVideoCompositorSession.h">AVCustomVideoCompositorSession.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVDateRangeMetadataGroup.h">AVDateRangeMetadataGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVDateRangeMetadataGroupInternal.h">AVDateRangeMetadataGroupInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVDepartureAnnouncingObjectMonitor.h">AVDepartureAnnouncingObjectMonitor.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVDispatchGroup.h">AVDispatchGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExportSettingsOutputSettingsAssistantBaseSettings.h">AVExportSettingsOutputSettingsAssistantBaseSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExportSettingsOutputSettingsAssistantVideoSettingsAdjuster.h">AVExportSettingsOutputSettingsAssistantVideoSettingsAdjuster.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDevice.h">AVExternalDevice.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDeviceController.h">AVExternalDeviceController.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDeviceControllerInternal.h">AVExternalDeviceControllerInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDeviceHID.h">AVExternalDeviceHID.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDeviceHIDInternal.h">AVExternalDeviceHIDInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDeviceIcon.h">AVExternalDeviceIcon.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDeviceIconInternal.h">AVExternalDeviceIconInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDeviceInternal.h">AVExternalDeviceInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDeviceScreenBorrowToken.h">AVExternalDeviceScreenBorrowToken.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalDeviceTurnByTurnToken.h">AVExternalDeviceTurnByTurnToken.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalProtectionMonitor.h">AVExternalProtectionMonitor.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVExternalProtectionMonitorInternal.h">AVExternalProtectionMonitorInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFigAssetInspector.h">AVFigAssetInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFigAssetInspectorLoader.h">AVFigAssetInspectorLoader.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFigAssetTrackInspector.h">AVFigAssetTrackInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFigAssetWriterAudioTrack.h">AVFigAssetWriterAudioTrack.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFigAssetWriterFinishWritingAsyncOperation.h">AVFigAssetWriterFinishWritingAsyncOperation.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFigAssetWriterGenericTrack.h">AVFigAssetWriterGenericTrack.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFigAssetWriterTrack.h">AVFigAssetWriterTrack.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFigAssetWriterVideoTrack.h">AVFigAssetWriterVideoTrack.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFigObjectInspector.h">AVFigObjectInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFlashlight.h">AVFlashlight.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFlashlightInternal.h">AVFlashlightInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFloat64Range.h">AVFloat64Range.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFormatReaderInspector.h">AVFormatReaderInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFormatSpecification.h">AVFormatSpecification.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFrameRateRange.h">AVFrameRateRange.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVFrameRateRangeInternal.h">AVFrameRateRangeInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVGenericMediaFileOutputSettingsValidator.h">AVGenericMediaFileOutputSettingsValidator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVGlobalOperationQueue.h">AVGlobalOperationQueue.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVIOKitOutputSettingsAssistantVideoEncoderCapabilities.h">AVIOKitOutputSettingsAssistantVideoEncoderCapabilities.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVISOOutputSettingsValidator.h">AVISOOutputSettingsValidator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVKVODispatcher.h">AVKVODispatcher.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVKeyPathDependency.h">AVKeyPathDependency.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVKeyPathDependencyManager.h">AVKeyPathDependencyManager.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVKeyPathFlattener.h">AVKeyPathFlattener.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVKeyPathFlattenerKVOIntrospectionShim.h">AVKeyPathFlattenerKVOIntrospectionShim.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVLazyValueLoadingMetadataItem.h">AVLazyValueLoadingMetadataItem.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVLazyValueLoadingMetadataItemInternal.h">AVLazyValueLoadingMetadataItemInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVManagedAssetCache.h">AVManagedAssetCache.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVManagedAssetCacheInternal.h">AVManagedAssetCacheInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaDataRequester.h">AVMediaDataRequester.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaFileOutputSettingsValidator.h">AVMediaFileOutputSettingsValidator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaFileType.h">AVMediaFileType.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaSelection.h">AVMediaSelection.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaSelectionGroup.h">AVMediaSelectionGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaSelectionGroupInternal.h">AVMediaSelectionGroupInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaSelectionInternal.h">AVMediaSelectionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaSelectionKeyValueOption.h">AVMediaSelectionKeyValueOption.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaSelectionOption.h">AVMediaSelectionOption.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaSelectionOptionInternal.h">AVMediaSelectionOptionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMediaSelectionTrackOption.h">AVMediaSelectionTrackOption.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataEnumerator.h">AVMetadataEnumerator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataFaceObject.h">AVMetadataFaceObject.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataFaceObjectInternal.h">AVMetadataFaceObjectInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataGroup.h">AVMetadataGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataItem.h">AVMetadataItem.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataItemFilter.h">AVMetadataItemFilter.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataItemFilterForSharing.h">AVMetadataItemFilterForSharing.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataItemFilterInternal.h">AVMetadataItemFilterInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataItemInternal.h">AVMetadataItemInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataItemValueRequest.h">AVMetadataItemValueRequest.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataItemValueRequestInternal.h">AVMetadataItemValueRequestInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataMachineReadableCodeObject.h">AVMetadataMachineReadableCodeObject.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataMachineReadableCodeObjectInternal.h">AVMetadataMachineReadableCodeObjectInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataObject.h">AVMetadataObject.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMetadataObjectInternal.h">AVMetadataObjectInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableAudioMix.h">AVMutableAudioMix.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableAudioMixInputParameters.h">AVMutableAudioMixInputParameters.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableComposition.h">AVMutableComposition.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableCompositionInternal.h">AVMutableCompositionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableCompositionTrack.h">AVMutableCompositionTrack.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableCompositionTrackInternal.h">AVMutableCompositionTrackInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableDateRangeMetadataGroup.h">AVMutableDateRangeMetadataGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableMediaSelection.h">AVMutableMediaSelection.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableMetadataItem.h">AVMutableMetadataItem.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutablePlaylistItemRepresentation.h">AVMutablePlaylistItemRepresentation.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableScheduledAudioParameters.h">AVMutableScheduledAudioParameters.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableTimedMetadataGroup.h">AVMutableTimedMetadataGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableVideoComposition.h">AVMutableVideoComposition.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableVideoCompositionInstruction.h">AVMutableVideoCompositionInstruction.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVMutableVideoCompositionLayerInstruction.h">AVMutableVideoCompositionLayerInstruction.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVNetworkPlaybackPerfHUDLayer.h">AVNetworkPlaybackPerfHUDLayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVObservationBlockFactory.h">AVObservationBlockFactory.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOccasionalTimebaseObserver.h">AVOccasionalTimebaseObserver.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOfflineVideoStabilizer.h">AVOfflineVideoStabilizer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOnceTimebaseObserver.h">AVOnceTimebaseObserver.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOperation.h">AVOperation.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOperationQueueWithFundamentalDependency.h">AVOperationQueueWithFundamentalDependency.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputContext.h">AVOutputContext.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputContextInternal.h">AVOutputContextInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputDevice.h">AVOutputDevice.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputDeviceDiscoverySession.h">AVOutputDeviceDiscoverySession.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputDeviceDiscoverySessionAvailableOutputDevices.h">AVOutputDeviceDiscoverySessionAvailableOutputDevices.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputDeviceDiscoverySessionAvailableOutputDevicesInternal.h">AVOutputDeviceDiscoverySessionAvailableOutputDevicesInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputDeviceDiscoverySessionInternal.h">AVOutputDeviceDiscoverySessionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputDeviceFrecencyManager.h">AVOutputDeviceFrecencyManager.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputDeviceInternal.h">AVOutputDeviceInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputSettings.h">AVOutputSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputSettingsAssistant.h">AVOutputSettingsAssistant.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVOutputSettingsAssistantInternal.h">AVOutputSettingsAssistantInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPeriodicTimebaseObserver.h">AVPeriodicTimebaseObserver.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPixelBufferAttributeMediator.h">AVPixelBufferAttributeMediator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPixelBufferAttributesVideoOutputSettings.h">AVPixelBufferAttributesVideoOutputSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaybackItemInspector.h">AVPlaybackItemInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaybackItemInspectorLoader.h">AVPlaybackItemInspectorLoader.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaybackItemTrackInspector.h">AVPlaybackItemTrackInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayer.h">AVPlayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerConnection.h">AVPlayerConnection.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerInternal.h">AVPlayerInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItem.h">AVPlayerItem.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemAccessLog.h">AVPlayerItemAccessLog.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemAccessLogEvent.h">AVPlayerItemAccessLogEvent.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemAccessLogEventInternal.h">AVPlayerItemAccessLogEventInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemAccessLogInternal.h">AVPlayerItemAccessLogInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemErrorLog.h">AVPlayerItemErrorLog.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemErrorLogEvent.h">AVPlayerItemErrorLogEvent.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemErrorLogEventInternal.h">AVPlayerItemErrorLogEventInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemErrorLogInternal.h">AVPlayerItemErrorLogInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemInternal.h">AVPlayerItemInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemLegibleOutput.h">AVPlayerItemLegibleOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemLegibleOutputInternal.h">AVPlayerItemLegibleOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemLegibleOutputRealDependencyFactory.h">AVPlayerItemLegibleOutputRealDependencyFactory.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemMediaDataCollector.h">AVPlayerItemMediaDataCollector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemMediaDataCollectorInternal.h">AVPlayerItemMediaDataCollectorInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemMetadataCollector.h">AVPlayerItemMetadataCollector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemMetadataCollectorInternal.h">AVPlayerItemMetadataCollectorInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemMetadataOutput.h">AVPlayerItemMetadataOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemMetadataOutputInternal.h">AVPlayerItemMetadataOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemOutput.h">AVPlayerItemOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemOutputInternal.h">AVPlayerItemOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemTrack.h">AVPlayerItemTrack.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemTrackInternal.h">AVPlayerItemTrackInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemVideoOutput.h">AVPlayerItemVideoOutput.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerItemVideoOutputInternal.h">AVPlayerItemVideoOutputInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerLayer.h">AVPlayerLayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerLayerIntermediateLayer.h">AVPlayerLayerIntermediateLayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerLayerInternal.h">AVPlayerLayerInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerLooper.h">AVPlayerLooper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerLooperInternal.h">AVPlayerLooperInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerMediaSelectionCriteria.h">AVPlayerMediaSelectionCriteria.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerMediaSelectionCriteriaInternal.h">AVPlayerMediaSelectionCriteriaInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlayerQueueModificationDescription.h">AVPlayerQueueModificationDescription.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylist.h">AVPlaylist.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistController.h">AVPlaylistController.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistControllerInternal.h">AVPlaylistControllerInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistControllerPlayer.h">AVPlaylistControllerPlayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistControllerPlayerItem.h">AVPlaylistControllerPlayerItem.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistInternal.h">AVPlaylistInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistItem.h">AVPlaylistItem.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistItemInternal.h">AVPlaylistItemInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistItemRepresentation.h">AVPlaylistItemRepresentation.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistItemRepresentationInternal.h">AVPlaylistItemRepresentationInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistLeafNodeEnumerator.h">AVPlaylistLeafNodeEnumerator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPlaylistLeafNodeEnumeratorInternal.h">AVPlaylistLeafNodeEnumeratorInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVPropertyStorage.h">AVPropertyStorage.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVQueuePlayer.h">AVQueuePlayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVQueuePlayerInternal.h">AVQueuePlayerInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVRetainReleaseWeakReference.h">AVRetainReleaseWeakReference.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVRunLoopCondition.h">AVRunLoopCondition.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVRunLoopConditionRunLoopState.h">AVRunLoopConditionRunLoopState.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVSampleBufferDisplayLayer.h">AVSampleBufferDisplayLayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVSampleBufferDisplayLayerContentLayer.h">AVSampleBufferDisplayLayerContentLayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVSampleBufferDisplayLayerInternal.h">AVSampleBufferDisplayLayerInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVScheduledAudioParameters.h">AVScheduledAudioParameters.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVScheduledAudioParametersInternal.h">AVScheduledAudioParametersInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVStreamingResourceInspector.h">AVStreamingResourceInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVSynchronizedLayer.h">AVSynchronizedLayer.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVSynchronizedLayerInternal.h">AVSynchronizedLayerInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVTextStyleRule.h">AVTextStyleRule.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVTextStyleRuleInternal.h">AVTextStyleRuleInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVTimeFormatter.h">AVTimeFormatter.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVTimeFormatterInternal.h">AVTimeFormatterInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVTimebaseObserver.h">AVTimebaseObserver.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVTimedMetadataGroup.h">AVTimedMetadataGroup.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVTimedMetadataGroupInternal.h">AVTimedMetadataGroupInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVTrackReaderInspector.h">AVTrackReaderInspector.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVTwoPartKeyPath.h">AVTwoPartKeyPath.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVURLAsset.h">AVURLAsset.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVURLAssetInternal.h">AVURLAssetInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVURLAuthenticationChallenge.h">AVURLAuthenticationChallenge.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVUnreachableAssetInspectorLoader.h">AVUnreachableAssetInspectorLoader.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoComposition.h">AVVideoComposition.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoCompositionCoreAnimationTool.h">AVVideoCompositionCoreAnimationTool.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoCompositionCoreAnimationToolInternal.h">AVVideoCompositionCoreAnimationToolInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoCompositionInstruction.h">AVVideoCompositionInstruction.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoCompositionInstructionInternal.h">AVVideoCompositionInstructionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoCompositionInternal.h">AVVideoCompositionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoCompositionLayerInstruction.h">AVVideoCompositionLayerInstruction.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoCompositionLayerInstructionInternal.h">AVVideoCompositionLayerInstructionInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoCompositionRenderContext.h">AVVideoCompositionRenderContext.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoCompositionRenderContextInternal.h">AVVideoCompositionRenderContextInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoOutputSettings.h">AVVideoOutputSettings.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoPerformanceMetrics.h">AVVideoPerformanceMetrics.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVVideoPerformanceMetricsInternal.h">AVVideoPerformanceMetricsInternal.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVWAVEOutputSettingsValidator.h">AVWAVEOutputSettingsValidator.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVWaitForNotificationOrDeallocationOperation.h">AVWaitForNotificationOrDeallocationOperation.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVWeakObservableCallbackCancellationHelper.h">AVWeakObservableCallbackCancellationHelper.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVWeakObservationBlockFactory.h">AVWeakObservationBlockFactory.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVWeakReference.h">AVWeakReference.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVWeakReferencingDelegateStorage.h">AVWeakReferencingDelegateStorage.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVWeaklyObservedObjectClientBlockKVONotifier.h">AVWeaklyObservedObjectClientBlockKVONotifier.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/AVWorkaroundNSBlockOperation.h">AVWorkaroundNSBlockOperation.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/CMTimeAsValue.h">CMTimeAsValue.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/CMTimeMappingAsValue.h">CMTimeMappingAsValue.h</A>
+<A HREF="/tree/Frameworks/AVFoundation.framework/CMTimeRangeAsValue.h">CMTimeRangeAsValue.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

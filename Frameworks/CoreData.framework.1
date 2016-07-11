@@ -1,0 +1,363 @@
+<HTML>
+<HEAD>
+<TITLE>CoreData.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/Frameworks/CoreData.framework
+305 classes
+
+<A HREF="/tree/Frameworks/CoreData.framework/NSAsynchronousFetchRequest.h">NSAsynchronousFetchRequest.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSAsynchronousFetchResult.h">NSAsynchronousFetchResult.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSAtomicStore.h">NSAtomicStore.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSAtomicStoreCacheNode.h">NSAtomicStoreCacheNode.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSAttributeDescription.h">NSAttributeDescription.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSAttributeStoreMapping.h">NSAttributeStoreMapping.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSBasicObjectID.h">NSBasicObjectID.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSBatchDeleteRequest.h">NSBatchDeleteRequest.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSBatchDeleteResult.h">NSBatchDeleteResult.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSBatchUpdateRequest.h">NSBatchUpdateRequest.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSBatchUpdateResult.h">NSBatchUpdateResult.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSBinaryObjectStore.h">NSBinaryObjectStore.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSBinaryObjectStoreFile.h">NSBinaryObjectStoreFile.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSCachedFetchRequestInfo.h">NSCachedFetchRequestInfo.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSCachedFetchRequestThunk.h">NSCachedFetchRequestThunk.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSCachingFetchRequest.h">NSCachingFetchRequest.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSConstraintCache.h">NSConstraintCache.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSConstraintCacheKey.h">NSConstraintCacheKey.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSConstraintConflict.h">NSConstraintConflict.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSConstraintValidator.h">NSConstraintValidator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSCoreDataXPCMessage.h">NSCoreDataXPCMessage.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSDictionaryMapNode.h">NSDictionaryMapNode.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSDictionaryStoreMap.h">NSDictionaryStoreMap.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSEntityDescription.h">NSEntityDescription.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSEntityMapping.h">NSEntityMapping.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSEntityMigrationPolicy.h">NSEntityMigrationPolicy.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSEntityStoreMapping.h">NSEntityStoreMapping.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSExpressionDescription.h">NSExpressionDescription.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSFaultHandler.h">NSFaultHandler.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSFetchRequest.h">NSFetchRequest.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSFetchRequestExpression.h">NSFetchRequestExpression.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSFetchedPropertyDescription.h">NSFetchedPropertyDescription.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSFetchedResultsController.h">NSFetchedResultsController.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSGenerationToken.h">NSGenerationToken.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSIncrementalStore.h">NSIncrementalStore.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSIncrementalStoreNode.h">NSIncrementalStoreNode.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSJoin.h">NSJoin.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSKnownKeysDictionary.h">NSKnownKeysDictionary.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSKnownKeysDictionary1.h">NSKnownKeysDictionary1.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSKnownKeysDictionary2.h">NSKnownKeysDictionary2.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSKnownKeysMappingStrategy.h">NSKnownKeysMappingStrategy.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSKnownKeysMappingStrategy1.h">NSKnownKeysMappingStrategy1.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSKnownKeysMappingStrategy2.h">NSKnownKeysMappingStrategy2.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSManagedImmutableObject.h">NSManagedImmutableObject.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSManagedObject.h">NSManagedObject.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSManagedObjectContext.h">NSManagedObjectContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSManagedObjectID.h">NSManagedObjectID.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSManagedObjectModel.h">NSManagedObjectModel.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSManagedObjectModelBundle.h">NSManagedObjectModelBundle.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMappedObjectStore.h">NSMappedObjectStore.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMappingModel.h">NSMappingModel.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMemoryObjectStore.h">NSMemoryObjectStore.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMemoryStoreEqualityPredicateOperator.h">NSMemoryStoreEqualityPredicateOperator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMemoryStoreInPredicateOperator.h">NSMemoryStoreInPredicateOperator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMergeConflict.h">NSMergeConflict.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMergePolicy.h">NSMergePolicy.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMergedPolicyLocalizationPolicy.h">NSMergedPolicyLocalizationPolicy.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMigrationContext.h">NSMigrationContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSMigrationManager.h">NSMigrationManager.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentCacheRow.h">NSPersistentCacheRow.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentContainer.h">NSPersistentContainer.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentStore.h">NSPersistentStore.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentStoreAsynchronousResult.h">NSPersistentStoreAsynchronousResult.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentStoreCache.h">NSPersistentStoreCache.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentStoreCoordinator.h">NSPersistentStoreCoordinator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentStoreDescription.h">NSPersistentStoreDescription.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentStoreMap.h">NSPersistentStoreMap.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentStoreRequest.h">NSPersistentStoreRequest.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPersistentStoreResult.h">NSPersistentStoreResult.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPrivateCoreDataClassForFindingBundle.h">NSPrivateCoreDataClassForFindingBundle.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPropertyDescription.h">NSPropertyDescription.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPropertyMapping.h">NSPropertyMapping.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPropertyStoreMapping.h">NSPropertyStoreMapping.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPropertyTransform.h">NSPropertyTransform.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSPullChangeHistoryRequest.h">NSPullChangeHistoryRequest.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSQueryGenerationToken.h">NSQueryGenerationToken.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSRelationshipDescription.h">NSRelationshipDescription.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSRelationshipStoreMapping.h">NSRelationshipStoreMapping.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLAliasGenerator.h">NSSQLAliasGenerator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLAttribute.h">NSSQLAttribute.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLAttributeTrigger.h">NSSQLAttributeTrigger.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLBatchDeleteRequestContext.h">NSSQLBatchDeleteRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLBatchUpdateRequestContext.h">NSSQLBatchUpdateRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLBindIntarray.h">NSSQLBindIntarray.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLBindVariable.h">NSSQLBindVariable.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLBlockRequestContext.h">NSSQLBlockRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLBoundedByIntermediate.h">NSSQLBoundedByIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLColumn.h">NSSQLColumn.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLCompoundWhereIntermediate.h">NSSQLCompoundWhereIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLConnectionManager.h">NSSQLConnectionManager.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLConstantValueIntermediate.h">NSSQLConstantValueIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLCore.h">NSSQLCore.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLCoreDispatchManager.h">NSSQLCoreDispatchManager.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLCorrelationTableUpdateTracker.h">NSSQLCorrelationTableUpdateTracker.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLCountRequestContext.h">NSSQLCountRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLDefaultConnectionManager.h">NSSQLDefaultConnectionManager.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLEntity.h">NSSQLEntity.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLEntityKey.h">NSSQLEntityKey.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLExpressionIntermediate.h">NSSQLExpressionIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLFetchCountIntermediate.h">NSSQLFetchCountIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLFetchDictionaryCountIntermediate.h">NSSQLFetchDictionaryCountIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLFetchIntermediate.h">NSSQLFetchIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLFetchRequestContext.h">NSSQLFetchRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLForeignEntityKey.h">NSSQLForeignEntityKey.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLForeignKey.h">NSSQLForeignKey.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLForeignKeyIntermediate.h">NSSQLForeignKeyIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLForeignOrderKey.h">NSSQLForeignOrderKey.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLFunctionExpressionIntermediate.h">NSSQLFunctionExpressionIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLGenerationalRowCache.h">NSSQLGenerationalRowCache.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLGenerator.h">NSSQLGenerator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLGroupByIntermediate.h">NSSQLGroupByIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLHavingIntermediate.h">NSSQLHavingIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLIntermediate.h">NSSQLIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLJoinIntermediate.h">NSSQLJoinIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLKeypathExpressionIntermediate.h">NSSQLKeypathExpressionIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLLimitIntermediate.h">NSSQLLimitIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLManyToMany.h">NSSQLManyToMany.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLModel.h">NSSQLModel.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLObjectFaultRequestContext.h">NSSQLObjectFaultRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLObjectIDRequestContext.h">NSSQLObjectIDRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLObjectIDSetFetchRequestContext.h">NSSQLObjectIDSetFetchRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLOffsetIntermediate.h">NSSQLOffsetIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLOptLockKey.h">NSSQLOptLockKey.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLOrderIntermediate.h">NSSQLOrderIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLPredicateAnalyser.h">NSSQLPredicateAnalyser.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLPrimaryKey.h">NSSQLPrimaryKey.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLProperty.h">NSSQLProperty.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLReadOnlySelectIntermediate.h">NSSQLReadOnlySelectIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLRelationship.h">NSSQLRelationship.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLRelationshipFaultRequestContext.h">NSSQLRelationshipFaultRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLRow.h">NSSQLRow.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLRowCache.h">NSSQLRowCache.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLSaveChangesRequestContext.h">NSSQLSaveChangesRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLSavePlan.h">NSSQLSavePlan.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLSelectIntermediate.h">NSSQLSelectIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLSimpleWhereIntermediate.h">NSSQLSimpleWhereIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLStatementIntermediate.h">NSSQLStatementIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLStoreMappingGenerator.h">NSSQLStoreMappingGenerator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLStoreRequestContext.h">NSSQLStoreRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLSubqueryExpressionIntermediate.h">NSSQLSubqueryExpressionIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLTernaryExpressionIntermediate.h">NSSQLTernaryExpressionIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLToMany.h">NSSQLToMany.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLToOne.h">NSSQLToOne.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLUbiquitizedStoreConnectionManager.h">NSSQLUbiquitizedStoreConnectionManager.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLUpdateColumnsIntermediate.h">NSSQLUpdateColumnsIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLUpdateIntermediate.h">NSSQLUpdateIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLVariableExpressionIntermediate.h">NSSQLVariableExpressionIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLWhereIntermediate.h">NSSQLWhereIntermediate.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLXPCFetchRequestContext.h">NSSQLXPCFetchRequestContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLiteAdapter.h">NSSQLiteAdapter.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLiteConnection.h">NSSQLiteConnection.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLiteInPlaceMigrationManager.h">NSSQLiteInPlaceMigrationManager.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLiteIntarrayTable.h">NSSQLiteIntarrayTable.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLiteStatement.h">NSSQLiteStatement.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSQLiteStatementCache.h">NSSQLiteStatementCache.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSSaveChangesRequest.h">NSSaveChangesRequest.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSScalarObjectID48.h">NSScalarObjectID48.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSScalarObjectID64.h">NSScalarObjectID64.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSStoreMapNode.h">NSStoreMapNode.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSStoreMapping.h">NSStoreMapping.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSStoreMappingGenerator.h">NSStoreMappingGenerator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSStoreMigrationPolicy.h">NSStoreMigrationPolicy.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSTemporaryObjectID.h">NSTemporaryObjectID.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSUnknownRequestTypeResult.h">NSUnknownRequestTypeResult.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSValidationErrorLocalizationPolicy.h">NSValidationErrorLocalizationPolicy.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCRow.h">NSXPCRow.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCStore.h">NSXPCStore.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCStoreConnection.h">NSXPCStoreConnection.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCStoreConnectionInfo.h">NSXPCStoreConnectionInfo.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCStoreManagedObjectArchivingToken.h">NSXPCStoreManagedObjectArchivingToken.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCStoreNotificationObserver.h">NSXPCStoreNotificationObserver.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCStoreServer.h">NSXPCStoreServer.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCStoreServerConnectionContext.h">NSXPCStoreServerConnectionContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCStoreServerNotificationManager.h">NSXPCStoreServerNotificationManager.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/NSXPCStoreServerRequestHandlingPolicy.h">NSXPCStoreServerRequestHandlingPolicy.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUBLogEventID.h">PFUBLogEventID.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityBaseline.h">PFUbiquityBaseline.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityBaselineHeuristics.h">PFUbiquityBaselineHeuristics.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityBaselineMetadata.h">PFUbiquityBaselineMetadata.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityBaselineOperation.h">PFUbiquityBaselineOperation.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityBaselineRecoveryOperation.h">PFUbiquityBaselineRecoveryOperation.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityBaselineRollOperation.h">PFUbiquityBaselineRollOperation.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityBaselineRollResponseOperation.h">PFUbiquityBaselineRollResponseOperation.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityContainerIdentifier.h">PFUbiquityContainerIdentifier.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityContainerMonitor.h">PFUbiquityContainerMonitor.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityEventLogging.h">PFUbiquityEventLogging.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityExportContext.h">PFUbiquityExportContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityFileCoordinator.h">PFUbiquityFileCoordinator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityFilePresenter.h">PFUbiquityFilePresenter.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityGlobalObjectID.h">PFUbiquityGlobalObjectID.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityGlobalObjectIDCache.h">PFUbiquityGlobalObjectIDCache.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityImportContext.h">PFUbiquityImportContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityImportOperation.h">PFUbiquityImportOperation.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityKnowledgeVector.h">PFUbiquityKnowledgeVector.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityLocation.h">PFUbiquityLocation.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityLocationStatus.h">PFUbiquityLocationStatus.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityLogging.h">PFUbiquityLogging.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityMergeConflict.h">PFUbiquityMergeConflict.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityMergePolicy.h">PFUbiquityMergePolicy.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityMetadataFactory.h">PFUbiquityMetadataFactory.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityMetadataFactoryEntry.h">PFUbiquityMetadataFactoryEntry.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityMetadataFactoryFilePresenter.h">PFUbiquityMetadataFactoryFilePresenter.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityMigrationAssistant.h">PFUbiquityMigrationAssistant.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityMigrationManager.h">PFUbiquityMigrationManager.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityPeer.h">PFUbiquityPeer.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityPeerRange.h">PFUbiquityPeerRange.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityPeerRangeCache.h">PFUbiquityPeerRangeCache.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityPeerRangeReservationContext.h">PFUbiquityPeerRangeReservationContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityPeerReceipt.h">PFUbiquityPeerReceipt.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityPeerSnapshot.h">PFUbiquityPeerSnapshot.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityPeerSnapshotCollection.h">PFUbiquityPeerSnapshotCollection.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityPeerState.h">PFUbiquityPeerState.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityRecordImportConflict.h">PFUbiquityRecordImportConflict.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityRecordsImporterSchedulingContext.h">PFUbiquityRecordsImporterSchedulingContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityRemotePeerState.h">PFUbiquityRemotePeerState.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquitySQLCorePeerRange.h">PFUbiquitySQLCorePeerRange.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquitySafeSaveFile.h">PFUbiquitySafeSaveFile.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquitySaveSnapshot.h">PFUbiquitySaveSnapshot.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquitySetupAssistant.h">PFUbiquitySetupAssistant.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityStoreExportContext.h">PFUbiquityStoreExportContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityStoreMetadata.h">PFUbiquityStoreMetadata.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityStoreMetadataMedic.h">PFUbiquityStoreMetadataMedic.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityStoreSaveSnapshot.h">PFUbiquityStoreSaveSnapshot.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquitySwitchboard.h">PFUbiquitySwitchboard.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquitySwitchboardCacheWrapper.h">PFUbiquitySwitchboardCacheWrapper.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquitySwitchboardEntry.h">PFUbiquitySwitchboardEntry.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquitySwitchboardEntryMetadata.h">PFUbiquitySwitchboardEntryMetadata.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityToManyConflictDiff.h">PFUbiquityToManyConflictDiff.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityTransactionEntry.h">PFUbiquityTransactionEntry.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityTransactionEntryLight.h">PFUbiquityTransactionEntryLight.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityTransactionHistoryCache.h">PFUbiquityTransactionHistoryCache.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityTransactionLog.h">PFUbiquityTransactionLog.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityTransactionLogCache.h">PFUbiquityTransactionLogCache.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFUbiquityTransactionLogMigrator.h">PFUbiquityTransactionLogMigrator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFZipCentralDirectoryFileHeader.h">PFZipCentralDirectoryFileHeader.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFZipEndOfCentralDirectoryRecord.h">PFZipEndOfCentralDirectoryRecord.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/PFZipLocalFileHeader.h">PFZipLocalFileHeader.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_CDSnapshot.h">_CDSnapshot.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NS128bitWrapper.h">_NS128bitWrapper.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSChildContextPredicateRemapper.h">_NSChildContextPredicateRemapper.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSCoreDataConstraintViolationException.h">_NSCoreDataConstraintViolationException.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSCoreDataException.h">_NSCoreDataException.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSCoreDataOptimisticLockingException.h">_NSCoreDataOptimisticLockingException.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSCoreDataTaggedObjectID.h">_NSCoreDataTaggedObjectID.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSCoreDataTaggedObjectIDFactory.h">_NSCoreDataTaggedObjectIDFactory.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSCoreManagedObjectID.h">_NSCoreManagedObjectID.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSDefaultSectionInfo.h">_NSDefaultSectionInfo.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSFaultingMutableArray.h">_NSFaultingMutableArray.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSFaultingMutableOrderedSet.h">_NSFaultingMutableOrderedSet.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSFaultingMutableOrderedSetMutationMethods.h">_NSFaultingMutableOrderedSetMutationMethods.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSFaultingMutableSet.h">_NSFaultingMutableSet.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSFaultingMutableSetMutationMethods.h">_NSFaultingMutableSetMutationMethods.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSKnownKeysEnumerator.h">_NSKnownKeysEnumerator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSManagedObject_st.h">_NSManagedObject_st.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSMappingModelBuilder.h">_NSMappingModelBuilder.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSMemoryStorePredicateRemapper.h">_NSMemoryStorePredicateRemapper.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSNoChangeToken.h">_NSNoChangeToken.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSNotifyingWrapperMutableOrderedSet.h">_NSNotifyingWrapperMutableOrderedSet.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSNotifyingWrapperMutableSet.h">_NSNotifyingWrapperMutableSet.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSOrderedSetDiff.h">_NSOrderedSetDiff.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSOrderedSetDiffChange.h">_NSOrderedSetDiffChange.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSOrderedSetDiffDelete.h">_NSOrderedSetDiffDelete.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSOrderedSetDiffInsert.h">_NSOrderedSetDiffInsert.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSOrderedSetDiffMove.h">_NSOrderedSetDiffMove.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSPersistenceUtilities.h">_NSPersistenceUtilities.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSPropertyDescriptionProxy.h">_NSPropertyDescriptionProxy.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSPropertyDescriptionProxy2.h">_NSPropertyDescriptionProxy2.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSProxyWrapperMutableOrderedSet.h">_NSProxyWrapperMutableOrderedSet.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSProxyWrapperMutableSet.h">_NSProxyWrapperMutableSet.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSQueryGenerationToken.h">_NSQueryGenerationToken.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSSQLCoreConnectionObsever.h">_NSSQLCoreConnectionObsever.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSSQLEntityMigrationDescription.h">_NSSQLEntityMigrationDescription.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSSQLGenerator.h">_NSSQLGenerator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSSQLTableMigrationDescription.h">_NSSQLTableMigrationDescription.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSSQLiteStoreMigrator.h">_NSSQLiteStoreMigrator.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSScalarObjectID.h">_NSScalarObjectID.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSTemporaryObjectID2.h">_NSTemporaryObjectID2.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_NSXPCStoreUtilities.h">_NSXPCStoreUtilities.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFArray.h">_PFArray.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFBatchFaultingArray.h">_PFBatchFaultingArray.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFCachedNumber.h">_PFCachedNumber.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFChangeInfo.h">_PFChangeInfo.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFContextMapTable.h">_PFContextMapTable.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFEncodedArray.h">_PFEncodedArray.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFEncodedData.h">_PFEncodedData.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFEncodedString.h">_PFEncodedString.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFExternalReferenceData.h">_PFExternalReferenceData.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFFetchPlanHeader.h">_PFFetchPlanHeader.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFFetchedResultOrderedSetWrapper.h">_PFFetchedResultOrderedSetWrapper.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFGarbageManager.h">_PFGarbageManager.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFLock.h">_PFLock.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFManagedObjectReferenceQueue.h">_PFManagedObjectReferenceQueue.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFMutableProxyArray.h">_PFMutableProxyArray.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFRefCountableValue.h">_PFRefCountableValue.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFRoutines.h">_PFRoutines.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFString.h">_PFString.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFTask.h">_PFTask.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFTempNestedSnapshot.h">_PFTempNestedSnapshot.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFUbiquityMigrationContext.h">_PFUbiquityMigrationContext.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFUbiquityRecordImportOperation.h">_PFUbiquityRecordImportOperation.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFUbiquityRecordsExporter.h">_PFUbiquityRecordsExporter.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFUbiquityRecordsImporter.h">_PFUbiquityRecordsImporter.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFUbiquityStack.h">_PFUbiquityStack.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFWeakReference.h">_PFWeakReference.h</A>
+<A HREF="/tree/Frameworks/CoreData.framework/_PFZipFileArchive.h">_PFZipFileArchive.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>

@@ -1,0 +1,377 @@
+<HTML>
+<HEAD>
+<TITLE>Intents.framework</TITLE>
+</HEAD>
+<BODY>
+<code>
+<pre>
+   ___          _   _             ___
+  | _ \_  _ _ _| |_(_)_ __  ___  | _ )_ _ _____ __ _____ ___ _ _
+  |   / || | ' \  _| | '  \/ -_) | _ \ '_/ _ \ V  V (_-// -_) '_|
+  |_|_\\_,_|_||_\__|_|_|_|_\___| |___/_| \___/\_/\_//__/\___|_|
+  
+ -------------------------------------------------------------------------------
+
+
+/Frameworks/Intents.framework
+319 classes
+
+<A HREF="/tree/Frameworks/Intents.framework/INAppTrust.h">INAppTrust.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INApplicationContext.h">INApplicationContext.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INBookRestaurantReservationIntent.h">INBookRestaurantReservationIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INBookRestaurantReservationIntentResponse.h">INBookRestaurantReservationIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INBooleanResolutionResult.h">INBooleanResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCache.h">INCache.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCacheableObjectManager.h">INCacheableObjectManager.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCallCapabilityOptionsResolutionResult.h">INCallCapabilityOptionsResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCallRecordTypeResolutionResult.h">INCallRecordTypeResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCancelWorkoutIntent.h">INCancelWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCancelWorkoutIntentResponse.h">INCancelWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCarAirCirculationModeResolutionResult.h">INCarAirCirculationModeResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCarAudioSourceResolutionResult.h">INCarAudioSourceResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCarDefrosterResolutionResult.h">INCarDefrosterResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCarSeatResolutionResult.h">INCarSeatResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INConfigureHomeIntent.h">INConfigureHomeIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INConfigureHomeIntentResponse.h">INConfigureHomeIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INControlHomeIntent.h">INControlHomeIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INControlHomeIntentResponse.h">INControlHomeIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCurrencyAmount.h">INCurrencyAmount.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INCurrencyAmountResolutionResult.h">INCurrencyAmountResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INDateComponentsRange.h">INDateComponentsRange.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INDateComponentsRangeResolutionResult.h">INDateComponentsRangeResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INDoubleResolutionResult.h">INDoubleResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INEndWorkoutIntent.h">INEndWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INEndWorkoutIntentResponse.h">INEndWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INExplicitAppTrustCache.h">INExplicitAppTrustCache.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INExtension.h">INExtension.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INExtensionContext.h">INExtensionContext.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INExtensionContextGetRideStatusIntentResponseObserver.h">INExtensionContextGetRideStatusIntentResponseObserver.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INExtensionContextHost.h">INExtensionContextHost.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetAvailableRestaurantReservationBookingDefaultsIntent.h">INGetAvailableRestaurantReservationBookingDefaultsIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetAvailableRestaurantReservationBookingDefaultsIntentResponse.h">INGetAvailableRestaurantReservationBookingDefaultsIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetAvailableRestaurantReservationBookingsIntent.h">INGetAvailableRestaurantReservationBookingsIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetAvailableRestaurantReservationBookingsIntentResponse.h">INGetAvailableRestaurantReservationBookingsIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetRestaurantGuestIntent.h">INGetRestaurantGuestIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetRestaurantGuestIntentResponse.h">INGetRestaurantGuestIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetRideStatusIntent.h">INGetRideStatusIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetRideStatusIntentResponse.h">INGetRideStatusIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetUserCurrentRestaurantReservationBookingsIntent.h">INGetUserCurrentRestaurantReservationBookingsIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INGetUserCurrentRestaurantReservationBookingsIntentResponse.h">INGetUserCurrentRestaurantReservationBookingsIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INHomeAttribute.h">INHomeAttribute.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INHomeEntity.h">INHomeEntity.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INImage.h">INImage.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INImageCache.h">INImageCache.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INIntegerResolutionResult.h">INIntegerResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INIntent.h">INIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INIntentDescription.h">INIntentDescription.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INIntentResolutionResult.h">INIntentResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INIntentResponse.h">INIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INIntentResponseDescription.h">INIntentResponseDescription.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INIntentSlotDescription.h">INIntentSlotDescription.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INIntentVocabularyKnowledge.h">INIntentVocabularyKnowledge.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INInteraction.h">INInteraction.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INListRideOptionsIntent.h">INListRideOptionsIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INListRideOptionsIntentResponse.h">INListRideOptionsIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INMessage.h">INMessage.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INMessageAttributeOptionsResolutionResult.h">INMessageAttributeOptionsResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INMessageAttributeResolutionResult.h">INMessageAttributeResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPauseWorkoutIntent.h">INPauseWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPauseWorkoutIntentResponse.h">INPauseWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPaymentMethod.h">INPaymentMethod.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPaymentRecord.h">INPaymentRecord.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPerson.h">INPerson.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPersonHandle.h">INPersonHandle.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPersonResolutionResult.h">INPersonResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPhotoAttributeOptionsResolutionResult.h">INPhotoAttributeOptionsResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPlacemarkResolutionResult.h">INPlacemarkResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPreferences.h">INPreferences.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INPriceRange.h">INPriceRange.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INQueryHomeIntent.h">INQueryHomeIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INQueryHomeIntentResponse.h">INQueryHomeIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRadioTypeResolutionResult.h">INRadioTypeResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRelativeReferenceResolutionResult.h">INRelativeReferenceResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRelativeSettingResolutionResult.h">INRelativeSettingResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRequestPaymentIntent.h">INRequestPaymentIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRequestPaymentIntentResponse.h">INRequestPaymentIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRequestRideIntent.h">INRequestRideIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRequestRideIntentResponse.h">INRequestRideIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRestaurant.h">INRestaurant.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRestaurantGuest.h">INRestaurantGuest.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRestaurantGuestDisplayPreferences.h">INRestaurantGuestDisplayPreferences.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRestaurantOffer.h">INRestaurantOffer.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRestaurantReservationBooking.h">INRestaurantReservationBooking.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRestaurantReservationUserBooking.h">INRestaurantReservationUserBooking.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INResumeWorkoutIntent.h">INResumeWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INResumeWorkoutIntentResponse.h">INResumeWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRideCompletionStatus.h">INRideCompletionStatus.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRideDriver.h">INRideDriver.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRideFareLineItem.h">INRideFareLineItem.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRideOption.h">INRideOption.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRidePartySizeOption.h">INRidePartySizeOption.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRideStatus.h">INRideStatus.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INRideVehicle.h">INRideVehicle.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSaveProfileInCarIntent.h">INSaveProfileInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSaveProfileInCarIntentResponse.h">INSaveProfileInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSearchCallHistoryIntent.h">INSearchCallHistoryIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSearchCallHistoryIntentResponse.h">INSearchCallHistoryIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSearchForMessagesIntent.h">INSearchForMessagesIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSearchForMessagesIntentResponse.h">INSearchForMessagesIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSearchForPhotosIntent.h">INSearchForPhotosIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSearchForPhotosIntentResponse.h">INSearchForPhotosIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSendMessageIntent.h">INSendMessageIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSendMessageIntentResponse.h">INSendMessageIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSendPaymentIntent.h">INSendPaymentIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSendPaymentIntentResponse.h">INSendPaymentIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSerializedCacheItem.h">INSerializedCacheItem.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INService_Subsystem.h">INService_Subsystem.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetAudioSourceInCarIntent.h">INSetAudioSourceInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetAudioSourceInCarIntentResponse.h">INSetAudioSourceInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetClimateSettingsInCarIntent.h">INSetClimateSettingsInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetClimateSettingsInCarIntentResponse.h">INSetClimateSettingsInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetDefrosterSettingsInCarIntent.h">INSetDefrosterSettingsInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetDefrosterSettingsInCarIntentResponse.h">INSetDefrosterSettingsInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetMessageAttributeIntent.h">INSetMessageAttributeIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetMessageAttributeIntentResponse.h">INSetMessageAttributeIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetProfileInCarIntent.h">INSetProfileInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetProfileInCarIntentResponse.h">INSetProfileInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetRadioStationIntent.h">INSetRadioStationIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetRadioStationIntentResponse.h">INSetRadioStationIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetSeatSettingsInCarIntent.h">INSetSeatSettingsInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSetSeatSettingsInCarIntentResponse.h">INSetSeatSettingsInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INShowPersonInteractionsIntent.h">INShowPersonInteractionsIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSpeakableString.h">INSpeakableString.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INSpeakableStringResolutionResult.h">INSpeakableStringResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INStartAudioCallIntent.h">INStartAudioCallIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INStartAudioCallIntentResponse.h">INStartAudioCallIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INStartPhotoPlaybackIntent.h">INStartPhotoPlaybackIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INStartPhotoPlaybackIntentResponse.h">INStartPhotoPlaybackIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INStartVideoCallIntent.h">INStartVideoCallIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INStartVideoCallIntentResponse.h">INStartVideoCallIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INStartWorkoutIntent.h">INStartWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INStartWorkoutIntentResponse.h">INStartWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INStringResolutionResult.h">INStringResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INTemperature.h">INTemperature.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INTemperatureResolutionResult.h">INTemperatureResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INTermsAndConditions.h">INTermsAndConditions.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INVocabulary.h">INVocabulary.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INVocabularyItem.h">INVocabularyItem.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INVocabularyUpdater.h">INVocabularyUpdater.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INWorkoutGoalUnitTypeResolutionResult.h">INWorkoutGoalUnitTypeResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/INWorkoutLocationTypeResolutionResult.h">INWorkoutLocationTypeResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INAggregator.h">_INAggregator.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBAppBuild.h">_INPBAppBuild.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBAppBundleInfo.h">_INPBAppBundleInfo.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBAppId.h">_INPBAppId.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBAppNames.h">_INPBAppNames.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBBuildId.h">_INPBBuildId.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCancelWorkoutIntent.h">_INPBCancelWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCancelWorkoutIntentResponse.h">_INPBCancelWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCompressFileIntent.h">_INPBCompressFileIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCompressFileIntentResponse.h">_INPBCompressFileIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCondition.h">_INPBCondition.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBConfigureHomeIntent.h">_INPBConfigureHomeIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBConfigureHomeIntentResponse.h">_INPBConfigureHomeIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBConflictingParameter.h">_INPBConflictingParameter.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBContact.h">_INPBContact.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBContactHandle.h">_INPBContactHandle.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBContactList.h">_INPBContactList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBContactValue.h">_INPBContactValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBControlHomeIntent.h">_INPBControlHomeIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBControlHomeIntentResponse.h">_INPBControlHomeIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCopyFileIntent.h">_INPBCopyFileIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCopyFileIntentResponse.h">_INPBCopyFileIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCreateFileIntent.h">_INPBCreateFileIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCreateFileIntentResponse.h">_INPBCreateFileIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCurrencyAmount.h">_INPBCurrencyAmount.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBCurrencyAmountValue.h">_INPBCurrencyAmountValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDataString.h">_INPBDataString.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDataStringList.h">_INPBDataStringList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDateTime.h">_INPBDateTime.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDateTimeRange.h">_INPBDateTimeRange.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDateTimeRangeList.h">_INPBDateTimeRangeList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDateTimeRangeValue.h">_INPBDateTimeRangeValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDecimalNumberValue.h">_INPBDecimalNumberValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDeleteFilePermanentlyIntent.h">_INPBDeleteFilePermanentlyIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDeleteFilePermanentlyIntentResponse.h">_INPBDeleteFilePermanentlyIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDialingContact.h">_INPBDialingContact.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDialingContactValue.h">_INPBDialingContactValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDouble.h">_INPBDouble.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDoubleList.h">_INPBDoubleList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDoubleValue.h">_INPBDoubleValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBDuration.h">_INPBDuration.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBEmpty.h">_INPBEmpty.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBEndWorkoutIntent.h">_INPBEndWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBEndWorkoutIntentResponse.h">_INPBEndWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBFileProperty.h">_INPBFileProperty.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBFilePropertyValue.h">_INPBFilePropertyValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBGetFileInformationIntent.h">_INPBGetFileInformationIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBGetFileInformationIntentResponse.h">_INPBGetFileInformationIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBGetRideStatusIntent.h">_INPBGetRideStatusIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBGetRideStatusIntentResponse.h">_INPBGetRideStatusIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBHomeAttribute.h">_INPBHomeAttribute.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBHomeAttributeValue.h">_INPBHomeAttributeValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBHomeEntity.h">_INPBHomeEntity.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBImageValue.h">_INPBImageValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBInteger.h">_INPBInteger.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntegerList.h">_INPBIntegerList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntegerValue.h">_INPBIntegerValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentMetadata.h">_INPBIntentMetadata.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentResponse.h">_INPBIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentResponsePayloadFailure.h">_INPBIntentResponsePayloadFailure.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentResponsePayloadSuccess.h">_INPBIntentResponsePayloadSuccess.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentSlotResolutionMulticardinalResult.h">_INPBIntentSlotResolutionMulticardinalResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentSlotResolutionResult.h">_INPBIntentSlotResolutionResult.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentSlotValue.h">_INPBIntentSlotValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentSlotVocabularyConcept.h">_INPBIntentSlotVocabularyConcept.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentSlotVocabularyPolicy.h">_INPBIntentSlotVocabularyPolicy.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentSlotVocabularyValue.h">_INPBIntentSlotVocabularyValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentSupport.h">_INPBIntentSupport.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentType.h">_INPBIntentType.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentTypePhrases.h">_INPBIntentTypePhrases.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBIntentVocabulary.h">_INPBIntentVocabulary.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLanguageTag.h">_INPBLanguageTag.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBListRideOptionsIntent.h">_INPBListRideOptionsIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBListRideOptionsIntentResponse.h">_INPBListRideOptionsIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLocalDate.h">_INPBLocalDate.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLocalTime.h">_INPBLocalTime.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLocalizedProject.h">_INPBLocalizedProject.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLocation.h">_INPBLocation.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLocationList.h">_INPBLocationList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLocationValue.h">_INPBLocationValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLong.h">_INPBLong.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLongList.h">_INPBLongList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBLongValue.h">_INPBLongValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBMessage.h">_INPBMessage.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBMoveFileIntent.h">_INPBMoveFileIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBMoveFileIntentResponse.h">_INPBMoveFileIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBOpenFileIntent.h">_INPBOpenFileIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBOpenFileIntentResponse.h">_INPBOpenFileIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPauseWorkoutIntent.h">_INPBPauseWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPauseWorkoutIntentResponse.h">_INPBPauseWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPayloadConfirmation.h">_INPBPayloadConfirmation.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPayloadNeedsDisambiguation.h">_INPBPayloadNeedsDisambiguation.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPayloadNeedsValue.h">_INPBPayloadNeedsValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPayloadNotSpecificEnough.h">_INPBPayloadNotSpecificEnough.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPayloadSuccess.h">_INPBPayloadSuccess.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPayloadUnsupported.h">_INPBPayloadUnsupported.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPaymentMethod.h">_INPBPaymentMethod.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPaymentMethodList.h">_INPBPaymentMethodList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPaymentMethodValue.h">_INPBPaymentMethodValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPaymentRecord.h">_INPBPaymentRecord.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPlatformSupport.h">_INPBPlatformSupport.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBPriceRangeValue.h">_INPBPriceRangeValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBQueryHomeIntent.h">_INPBQueryHomeIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBQueryHomeIntentResponse.h">_INPBQueryHomeIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRangeValue.h">_INPBRangeValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRefinementItem.h">_INPBRefinementItem.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRequestPaymentIntent.h">_INPBRequestPaymentIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRequestPaymentIntentResponse.h">_INPBRequestPaymentIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRequestRideIntent.h">_INPBRequestRideIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRequestRideIntentResponse.h">_INPBRequestRideIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBResumeWorkoutIntent.h">_INPBResumeWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBResumeWorkoutIntentResponse.h">_INPBResumeWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRideCompletionStatus.h">_INPBRideCompletionStatus.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRideDriver.h">_INPBRideDriver.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRideFareLineItem.h">_INPBRideFareLineItem.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRideOption.h">_INPBRideOption.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRidePartySizeOption.h">_INPBRidePartySizeOption.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRideStatus.h">_INPBRideStatus.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBRideVehicle.h">_INPBRideVehicle.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSaveProfileInCarIntent.h">_INPBSaveProfileInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSaveProfileInCarIntentResponse.h">_INPBSaveProfileInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSearchCallHistoryIntent.h">_INPBSearchCallHistoryIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSearchCallHistoryIntentResponse.h">_INPBSearchCallHistoryIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSearchForFilesIntent.h">_INPBSearchForFilesIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSearchForFilesIntentResponse.h">_INPBSearchForFilesIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSearchForMessagesIntent.h">_INPBSearchForMessagesIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSearchForMessagesIntentResponse.h">_INPBSearchForMessagesIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSearchForPhotosIntent.h">_INPBSearchForPhotosIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSearchForPhotosIntentResponse.h">_INPBSearchForPhotosIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSelectionItem.h">_INPBSelectionItem.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSendMessageIntent.h">_INPBSendMessageIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSendMessageIntentResponse.h">_INPBSendMessageIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSendPaymentIntent.h">_INPBSendPaymentIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSendPaymentIntentResponse.h">_INPBSendPaymentIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetAudioSourceInCarIntent.h">_INPBSetAudioSourceInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetAudioSourceInCarIntentResponse.h">_INPBSetAudioSourceInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetClimateSettingsInCarIntent.h">_INPBSetClimateSettingsInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetClimateSettingsInCarIntentResponse.h">_INPBSetClimateSettingsInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetDefrosterSettingsInCarIntent.h">_INPBSetDefrosterSettingsInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetDefrosterSettingsInCarIntentResponse.h">_INPBSetDefrosterSettingsInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetMessageAttributeIntent.h">_INPBSetMessageAttributeIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetMessageAttributeIntentResponse.h">_INPBSetMessageAttributeIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetProfileInCarIntent.h">_INPBSetProfileInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetProfileInCarIntentResponse.h">_INPBSetProfileInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetRadioStationIntent.h">_INPBSetRadioStationIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetRadioStationIntentResponse.h">_INPBSetRadioStationIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetSeatSettingsInCarIntent.h">_INPBSetSeatSettingsInCarIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBSetSeatSettingsInCarIntentResponse.h">_INPBSetSeatSettingsInCarIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBShareDestination.h">_INPBShareDestination.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBShareFileIntent.h">_INPBShareFileIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBShareFileIntentResponse.h">_INPBShareFileIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStartAudioCallIntent.h">_INPBStartAudioCallIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStartAudioCallIntentResponse.h">_INPBStartAudioCallIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStartPhotoPlaybackIntent.h">_INPBStartPhotoPlaybackIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStartPhotoPlaybackIntentResponse.h">_INPBStartPhotoPlaybackIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStartVideoCallIntent.h">_INPBStartVideoCallIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStartVideoCallIntentResponse.h">_INPBStartVideoCallIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStartWorkoutIntent.h">_INPBStartWorkoutIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStartWorkoutIntentResponse.h">_INPBStartWorkoutIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBString.h">_INPBString.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStringList.h">_INPBStringList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBStringValue.h">_INPBStringValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBTemperature.h">_INPBTemperature.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBTemperatureList.h">_INPBTemperatureList.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBTemperatureValue.h">_INPBTemperatureValue.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBTimestamp.h">_INPBTimestamp.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBUncompressFileIntent.h">_INPBUncompressFileIntent.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBUncompressFileIntentResponse.h">_INPBUncompressFileIntentResponse.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBUserActivity.h">_INPBUserActivity.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INPBValueMetadata.h">_INPBValueMetadata.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INSiriAuthorizationManager.h">_INSiriAuthorizationManager.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INSyncTransaction.h">_INSyncTransaction.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INVocabularyConnection.h">_INVocabularyConnection.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INVocabularyGenerationDiff.h">_INVocabularyGenerationDiff.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INVocabularyGenerationDocument.h">_INVocabularyGenerationDocument.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INVocabularyStoreManager.h">_INVocabularyStoreManager.h</A>
+<A HREF="/tree/Frameworks/Intents.framework/_INVocabularyValidator.h">_INVocabularyValidator.h</A>
+
+
+ -------------------------------------------------------------------------------
+
+ Source code: https://github.com/nst/RuntimeBrowser
+
+ Authors: Ezra Epstein (eepstein@prajna.com)
+          Nicolas Seriot (nicolas@seriot.ch)
+
+ Copyright (c) 2002 by Prajna IT Consulting.
+                       http://www.prajna.com
+               2015 by Nicolas Seriot
+                       http://www.seriot.ch
+
+ ========================================================================
+
+ THIS PROGRAM AND THIS CODE COME WITH ABSOLUTELY NO WARRANTY.
+ THIS CODE HAS BEEN PROVIDED "AS IS" AND THE RESPONSIBILITY
+ FOR ITS OPERATIONS IS 100% YOURS.
+
+ ========================================================================
+ 
+ RuntimeBrowser is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ RuntimeBrowser is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with RuntimeBrowser (in a file called "COPYING.txt"); if not,
+ write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+ Boston, MA  02111-1307  USA
+
+</pre>
+</code>
+</BODY>
